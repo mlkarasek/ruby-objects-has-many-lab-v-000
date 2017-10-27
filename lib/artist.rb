@@ -15,6 +15,12 @@ class Artist
   end
 
   def add_song_by_name
-  end
+    if (self.song.nil?)
+      self.song = Song.new(name)
+    else
+      self.song.name = name
+    end 
+  end 
+end
 
 end
