@@ -17,7 +17,7 @@ class Artist
   def add_song_by_name(song)
     song = self.new
     song.title = song.split (" - ")[1]
-    song 
+    song
     
 end
 
