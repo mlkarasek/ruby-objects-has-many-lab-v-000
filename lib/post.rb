@@ -4,7 +4,7 @@ class Post
 
   def initialize(title)
     @title = title
-    posts = []
+    post = []
   end
 
 end
