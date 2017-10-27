@@ -1,8 +1,8 @@
-class Artist 
+class Artist
 
   attr_accessor
 
-  def initialize 
-  end 
+  def initialize
+  end
 
 end 
