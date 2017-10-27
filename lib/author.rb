@@ -8,7 +8,7 @@ class Author
   end
 
   def posts
-    post = self.new 
+    post = self.new
 
   end
 
@@ -17,6 +17,6 @@ class Author
 
   def add_post_by_title
   end
-  
+
 
 end
