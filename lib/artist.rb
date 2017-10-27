@@ -14,13 +14,11 @@ class Artist
   def add_song()
   end
 
-  def add_song_by_name(name)
-    if (self.song.nil?)
-      self.song = Song.new(name)
-    else
-      self.song.name = name
-    end
-  end
+  def add_song_by_name(song)
+    song = self.new
+    song.title = song.split (" - ")[1]
+    song 
+    
 end
 
 end
