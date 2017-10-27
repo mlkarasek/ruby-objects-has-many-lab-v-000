@@ -19,9 +19,9 @@ class Artist
     @@song_count += 1
   end
 
-  def add_song_by_name(song)
-    song = self.new
-    song.title = song.split (" - ")[1]
+  def add_song_by_name(song_name)
+    song = self.new(song_name)
+    @songs << song
     song
 
 end
