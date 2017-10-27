@@ -11,10 +11,7 @@ class Artist
   def songs
   end
 
-  def add_song(song)
-    song = self.new
-    song.title = filename.split (" - ")[1]
-    song 
+  def add_song()
   end
 
   def add_song_by_name
