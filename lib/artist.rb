@@ -23,7 +23,7 @@ class Artist
     song = self.new
     song.title = song.split (" - ")[1]
     song
-    
+
 end
 
 end
